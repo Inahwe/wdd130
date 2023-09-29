@@ -1,8 +1,14 @@
-main{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
     max-width: 840px;
 }
 
-aside{
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.2); 
@@ -12,12 +18,12 @@ aside{
     text-align: center;
 }
 
-aside img{
+aside img {
     width: 200px;
     height: auto;
 }
 
-main img{
+main img {
     width: 150px;
     height: auto;
 }
@@ -29,6 +35,32 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-inna{
+inna {
     font-size: larger;
+}
+
+/* Class Selector */
+
+.box {
+    margin: 1rem;
+    border: 1px solid #0000001a;
+    padding: 1rem;
+    background-color: #83be83;
+    color: #ffffff;
+}
+
+aside{
+    width: 20em;
+    text-align: center;
+    position: relative;
+}
+
+main img{
+    float: right;
+}
+
+aside h2{
+    position: absolute;
+    top: 10;
+    left: 17px;
 }
