@@ -11,40 +11,134 @@
     --paragraph-font: Poppins;
 }
 
-header{
-  height: 22%;
-  background-color:#af9164 ;
-  width: 100%;
+
+header {
+  height: 0px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+header img{
+  width: 80px;
+  margin-left: -100px;
+}
+nav{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+nav a{
+  text-decoration: none;
+  width: 100px;
+  padding: 30px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: 100px;
+  position: relative;
+}
+.hero h1{
+  margin-bottom:50px ;
+  color: white;
+  text-align: center;
+}
+.hero img {
+  width: 600%;
+  height: 600px;
+  object-fit: cover;
 }
 
-p{
-  font-family: Roboto, serif;
+.hero article {
+  position: absolute;
+  bottom: 200px;
+  left: 20px;
+  border: 1px solid #424b54;
+  padding: 10px;
+  background-color: #424b54;
+  color: #fff;
+
 }
 
-a {
+.hero article img{
+  width: 100px;
+  height: auto;
+  float: right;
+}
+
+#history section{
+  display: flex;
+
+}
+
+
+h2 {
+  font-size: 120;
+  color: #fff;
+
+}
+
+.sideright {
+  bottom: 80px;
+  left: 20px;
+  border: 1px solid #424b54;
+  padding: 10px;
+  background-color: #424b54;
+  color: #fff;
+}
+
+.sideright h2{
+  text-align: center;
+}
+.sideright p{
+  text-align: center;
+}
+.comtainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  align-items: center;
+  padding-left: 10px;
+  border: 1px solid #424b54;
+
+}
+
+.container img{
+  width: 20px;
+  margin-right: 10px;
   text-decoration: none;
 }
+section h3{
+  text-align: center;
 
-body {
-  width: 100%;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
+.container-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-  h1 {
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    background: #edadc7;
-  }
+figure img{
+  width: 270px;
+  margin-left: -15px;
+  margin-right: -15px;
 
+}
 
-
-
+figcaption{
+  text-align: center;
+}
+footer{
+  height: 70px;
+  background-color: #8eb1c7;
+}
+footer div{
+  text-align: right;
+}
+footer p{
+  text-align: center;
+}
   
 
 
 
+
+ 
+  
