@@ -10,7 +10,9 @@
     --heading-font: "Roboto";
     --paragraph-font: Poppins;
 }
-
+body{
+  padding: 15px;
+}
 
 header {
   display: grid;
@@ -25,11 +27,7 @@ header img{
   width: 80px;
   margin-left: 100px;
 }
-nav{
-  padding: 0;
-  margin: 0 auto;
-  justify-content: center;
-}
+
 nav a{
   text-decoration: none;
   width: 100px;
@@ -192,3 +190,50 @@ s{
   margin-left: -15px;
   margin-right: -15px;
 }
+.div1{
+  text-align: center;
+}
+.boss{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.image3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  
+}
+.p1{
+  margin-bottom: 20px;
+}
+.div5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  font-family: 'Roboto', serif;
+  line-height: 1.5em;
+  
+}
+.h21{
+  color: black;
+  text-align: center;
+  font-family:'Roboto', serif; 
+}
+th{
+  font-family:'Roboto', serif;
+  font-size: 16px;
+}
+td{
+  font-family:'Roboto', serif;
+  font-size: 15px;
+}
+
