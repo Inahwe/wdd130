@@ -35,18 +35,20 @@ nav a{
   
 }
 .hero {
+  justify-items: center;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: 100px;
   position: relative;
 }
 .hero h1{
+  position: absolute;
   margin-bottom:50px ;
   color: white;
   text-align: center;
 }
 .hero img {
-  width: 600%;
+  width: 900%;
   height: 600px;
   object-fit: cover;
 }
@@ -96,6 +98,7 @@ h2 {
   text-align: center;
 }
 .comtainer {
+  text-decoration: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr ;
   align-items: center;
@@ -236,4 +239,42 @@ td{
   font-family:'Roboto', serif;
   font-size: 15px;
 }
+
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-image {
+  background-image: url('header-image.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 100px;
+}
+
+.newsletter, .cta, .grid-layout {
+  text-align: center;
+  padding: 20px;
+}
+
+.newsletter form, .cta a {
+  margin-top: 10px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+
 
