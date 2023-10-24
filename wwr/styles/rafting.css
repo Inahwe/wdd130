@@ -157,7 +157,7 @@ footer p{
   border-radius: 7px;
 }
 form{
-  background-color: rgba(2, 2, 250, 0.5);
+  background-color: #8eb1c7;
   width: 500px;
   margin: 0 auto;
   margin-top: 50px;
@@ -181,7 +181,7 @@ form{
   height: 30px;
   width: 75px;
   border-radius: 7px;
-  background-color: navy;
+  background-color: #af9164;
   color: white;
   font-weight: 200;
 }
@@ -247,12 +247,16 @@ body {
   padding: 0;
 }
 
-.header-image {
-  background-image: url('header-image.jpg');
+.aside-image1 {
+  background-image: url('aside-image1.jpg');
   background-size: cover;
   text-align: center;
   color: #fff;
   padding: 100px;
+}
+
+.aside2 {
+  text-align: center;
 }
 
 .newsletter, .cta, .grid-layout {
@@ -275,6 +279,38 @@ body {
   padding: 20px;
   border: 1px solid #ddd;
 }
-
-
-
+.newsletter h2{
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', serif;
+  font-size: medium;
+}
+.aside-image12 h1{
+  text-align: center;
+  font-family: 'Roboto', serif;
+  font-size: large;
+}
+.aside-image12 img{
+  width: 1600px;
+}
+#form1{
+  background-color:#8eb1c7 ;
+  height: 73px;
+  
+}
+.but button{
+  background-color: #8eb1c7 ;
+  color: white;
+  border-radius: 7px;
+  margin-top: 7px;
+  height: 30px;
+  width: 80px;
+  border: 0;
+}
+.input{
+  height: 30px;
+}
+.cta h2{
+  color: black;
+  font-family: 'Roboto', serif;
+}
