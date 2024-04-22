@@ -299,13 +299,13 @@ body {
   
 }
 .but button{
-  background-color: #8eb1c7 ;
+  background-color: #af9164;
   color: white;
   border-radius: 7px;
   margin-top: 7px;
   height: 30px;
   width: 80px;
-  border: 0;
+  border: 2;
 }
 .input{
   height: 30px;
@@ -314,3 +314,12 @@ body {
   color: black;
   font-family: 'Roboto', serif;
 }
+
+
+
+
+
+
+
+
+
