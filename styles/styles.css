@@ -1,6 +1,21 @@
-nav {
-    background-color: steelblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/*This comment will create a header for the "Class Selectors" section in my stylesheet
+ am placing this at the bottom of my stylesheet file.*/
+
+nav {
+    background-color: #092E72;
+}
+.box {
+    margin: 1rem;
+    border: 1px solid #621818;
+    padding: 1rem;
+    background-color: #092E72;
+    color: #FFFFFF;
+  }
 
 nav a {
     color: white;
@@ -9,15 +24,15 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: white;
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid black; /* Added a color value for the border */
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #092E72;
 }
 
 p {
@@ -26,16 +41,24 @@ p {
 
 main {
     max-width: 840px;
+    
 }
-
+ li a{
+    color: #ffffff;
+ }
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
+
+}
+aside h4{
+    position: absolute;
+    right: 37%;
+   
+    white-space: nowrap;
+    top: 15%;
+
 }
 
 aside img {
@@ -44,8 +67,11 @@ aside img {
 }
 
 main img {
-    width: 150px;
+    width: 60px;
     height: auto;
+    float: right;
+    margin-left: 20px;
+    
 }
 
 p {
@@ -54,6 +80,8 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #621818;
     text-align: center;
 }
+
+ 
