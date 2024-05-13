@@ -3,19 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*This comment will create a header for the "Class Selectors" section in my stylesheet
  am placing this at the bottom of my stylesheet file.*/
 
 nav {
     background-color: #092E72;
 }
+
 .box {
     margin: 1rem;
     border: 1px solid #621818;
     padding: 1rem;
     background-color: #092E72;
     color: #FFFFFF;
-  }
+}
 
 nav a {
     color: white;
@@ -39,26 +41,59 @@ p {
     padding: 10px 10px 10px 10px;
 }
 
-main {
+header, grid, footer {
     max-width: 840px;
-    
-}
- li a{
-    color: #ffffff;
- }
-aside {
-    width: 20rem;
-    text-align: center;
-    position: relative;
+    margin: 0 auto;
+  }
 
+nav {
+    background-color: #092E72;;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly; /* or space-around if you prefer */
+    align-items: center;
+  }
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; /* white */
+  }
+  
+h1 {
+    color: #092E72;;
+    border-bottom: 1px solid #fff; /* white */
+  }
+  
+  .grid {
+    display: grid;
+    align-items: center;
+  }
+  
+  main {
+    grid-column: 2/3;
+    margin: 1rem;
+  }
+  
+  aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+li a {
+    color: #ffffff;
 }
-aside h4{
+
+aside h4 {
     position: absolute;
     right: 37%;
-   
     white-space: nowrap;
     top: 15%;
-
 }
 
 aside img {
@@ -71,7 +106,6 @@ main img {
     height: auto;
     float: right;
     margin-left: 20px;
-    
 }
 
 p {
@@ -83,5 +117,3 @@ footer {
     border-top: 1px solid #621818;
     text-align: center;
 }
-
- 
