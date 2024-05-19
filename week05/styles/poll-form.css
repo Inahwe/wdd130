@@ -1,0 +1,153 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+:root {
+    --primary-color: #092E72;
+    --secondary-color: #621818;
+    --accent1-color: #B8C7E2;
+    --accent2-color: #FFFFFF;
+  
+    --heading-font: '______', roboto, sans-serif;
+    --paragraph-font: '______', open sans-serif;
+  
+    --nav-background-color:#B8C7E2 ;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #621818;
+    --nav-hover-background-color: #092E72;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color:  #092E72;
+    background-color: #FFFFFF;
+  }
+  
+  header {
+    margin: 0 auto;
+    width: 650px;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--accent2-color)
+  }
+
+  header h1 {
+    color: #FFFFFF;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    color: var(--primary-color);
+  }
+  
+  form {
+    width: 650px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #092E72;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    display: grid;
+    gap: 1rem;
+  }
+  
+  fieldset {
+    display: grid;
+    gap: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #092E72;
+    padding: 1rem;
+  }
+  
+  legend {
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+  }
+  
+  .form-item {
+    display: grid;
+    align-items: center;
+  }
+  
+  /* Move Full Name to the left */
+  .form-item.column2.fullname {
+    justify-content: start;
+  }
+  
+  /* Move Browser to the right */
+  .form-item.column1.browser {
+    justify-content: end;
+  }
+  
+  .column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+  }
+  
+  .column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+  }
+  
+  label, input, button, select, textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  label {
+    text-align: right;
+    padding-right: 1rem;
+  }
+  
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+  }
+  
+  button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  footer {
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--primary-color);
+    border-top: 1px solid #FFF;
+    padding-top: 0.5rem;
+  }
+
