@@ -463,3 +463,54 @@ footer {
   margin-right: 80px;
 }
 
+/* Existing CSS rules */
+
+.cta {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.cta .btn {
+  padding: 10px 20px;
+  background-color: #092E72;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trip-descriptions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.trip {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.trip img {
+  max-width: 100%;
+  height: auto;
+}
+
+.trip-table {
+  margin: 20px 0;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: #FFFFFF;
+}
